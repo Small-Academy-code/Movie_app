@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: linear-gradient(90deg, black, rgb(51, 1, 1));
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-family: "Bebas Neue";
+  color: red;
+  font-size: 65px;
+  margin: 10px;
+  text-align: left;
+  margin-right: auto;
+}
+input {
+  height: 24.8px;
+  width: 1000px;
+  min-width: 200px;
+  font-size: 35px;
+  font-family: "Source Sans Pro";
+  border: none;
+  background-color: rgb(231, 231, 231);
+  padding: 10px;
+  outline: none;
+  transition: all 0.5s;
+}
+input:hover {
+  width: 1010px;
+}
+input:focus {
+  background: rgb(22, 20, 20);
+  color: white;
+}
+button {
+  height: 45.5px;
+  width: 180px;
+  display: inline-block;
+  font-size: 35px;
+  font-family: "montserrat";
+  font-weight: 300;
+  background: darkolivegreen;
+  color: white;
+  border: none;
+  transition: all 0.2s;
+}
+button:hover {
+  width: 200px;
+}
+
+button:focus {
+  background: green;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  margin-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+img {
+  border-radius: 10px;
+  width: 30%;
+  margin: -30px;
+}
+.movie {
+  width: 90%;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d {
+  margin: auto;
+  font-size: 30px;
+  padding: 80px;
+}
+h3,
+h4 {
+  margin: 20px;
+}
+.overview {
+  font-size: 23px;
+  font-family: "Source Sans Pro";
+  color: white;
+  text-align: center;
+}
